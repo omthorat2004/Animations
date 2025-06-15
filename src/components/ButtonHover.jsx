@@ -8,7 +8,10 @@ const ButtonHover = () => {
         <button className='btn btn-1'>First</button>
         <button className='btn btn-2'>Second</button>
         <button className='btn  btn-border-slide'>Third</button>
-        <button className='btn btn-4'>Fourth</button>
+        <div className='btn-grp'>
+          <button className='btn btn-4'>Buy Now</button>
+          <button className='btn  back-btn'>Buy Then</button>
+        </div>
         <button className='btn btn-5'>Fifth</button>
       </div>
     </div>
